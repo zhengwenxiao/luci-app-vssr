@@ -41,7 +41,7 @@ define Package/luci-app-vssr
 	SUBMENU:=3. Applications
 	TITLE:=A New SS/SSR/Xray/Trojan LuCI interface
 	PKGARCH:=all
-	DEPENDS:=+shadowsocksr-libev-alt +ipset +ip-full +iptables-mod-tproxy +dnsmasq-full +coreutils +coreutils-base64 +bash +pdnsd-alt +wget-ssl +lua +luasocket +lua-maxminddb \
+	DEPENDS:=+shadowsocksr-libev-alt +ipset +ip-full +iptables-mod-tproxy +dnsmasq-full +coreutils +coreutils-base64 +bash +pdnsd-alt +wget +lua +luasocket +lua-maxminddb \
 			+shadowsocks-libev-ss-local +shadowsocksr-libev-ssr-local +shadowsocks-libev-ss-redir +simple-obfs \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Xray:xray-core \
 			+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:trojan \
